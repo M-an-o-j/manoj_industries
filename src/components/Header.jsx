@@ -101,7 +101,7 @@ const Header = () => {
 
           {/* Mobile CTA */}
           <div className="pt-4">
-            <CTA/>
+            <CTA cta_text="Contact us" />
           </div>
         </nav>
       </div>
