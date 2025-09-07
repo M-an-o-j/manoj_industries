@@ -17,36 +17,9 @@ export default function App() {
     <div className="min-h-screen bg-white text-black selection:bg-black selection:text-white">
       <Header />
 
-      <main>
+      <main className="md:px-24">
         <Hero />
-        <section aria-labelledby="services" className="px-6 py-12">
-          <div className="mx-auto container-max">
-            <h2 id="services" className="text-lg font-semibold tracking-wide uppercase text-gray-700 mb-4">
-              Our Services
-            </h2>
-            <Services />
-          </div>
-        </section>
-
-        <section aria-labelledby="about" className="px-6 py-12 bg-white/90">
-          <div className="mx-auto container-max">
-            <h2 id="about" className="text-lg font-semibold tracking-wide uppercase text-gray-700 mb-4">
-              About Manoj Industries
-            </h2>
-            <About />
-          </div>
-        </section>
-
-        <section aria-labelledby="contact" className="px-6 py-12">
-          <div className="mx-auto container-max">
-            <h2 id="contact" className="text-lg font-semibold tracking-wide uppercase text-gray-700 mb-4">
-              Get in touch
-            </h2>
-            <Contact />
-          </div>
-        </section>
-
-        <CTA />
+        
       </main>
 
       <Footer />

@@ -1,16 +1,12 @@
-// tailwind.config.cjs
 module.exports = {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,jsx}"
-  ],
+  content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
-      // subtle scale for micro-animation
-      transitionTimingFunction: {
-        'in-out-quad': 'cubic-bezier(.4,0,.2,1)'
-      }
-    }
+      fontFamily: {
+        'barlow': ['Barlow', 'sans-serif'],
+        'dancing': ['Dancing Script', 'cursive'],
+      },
+    },
   },
   plugins: [],
 }
