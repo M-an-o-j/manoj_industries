@@ -19,7 +19,7 @@ const Hero = () => {
         
         <div className="mt-4 lg:mt-6">
           <p className="text-base sm:text-lg md:text-xl lg:text-[20px] text-gray-600 leading-relaxed max-w-lg mx-auto lg:mx-0 lg:w-[500px]">
-            Leverage the power of machine learning and AI to unlock insights and drive business growth
+            We craft powerful web applications that unlock opportunities and accelerate your digital success.
           </p>
         </div>
         

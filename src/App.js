@@ -7,6 +7,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import CTA from "./components/CTA";
+import Home from "./pages/Home";
 
 /**
  * App - top-level layout
@@ -18,8 +19,7 @@ export default function App() {
       <Header />
 
       <main className="md:px-24">
-        <Hero />
-        
+        <Home />
       </main>
 
       <Footer />
